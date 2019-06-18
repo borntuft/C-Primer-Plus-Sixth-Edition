@@ -3,12 +3,12 @@
 int main (void)
 {
 
-    float secondsPerYear = 3.156e7;
-    int age;
+    double molecule = 3.0e-23;
+    int quart;
 
-    printf("Enter your age: ");
-    scanf("%d", &age);
-    printf("You are %e seconds old", age * secondsPerYear);
+    printf("Enter an amount of water (in quarts): ");
+    scanf("%d", &quart);
+    printf("There are %e molecules in %d quarts of water.\n", quart / molecule, quart);
 
     return 0;
 }
